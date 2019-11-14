@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css';
 
 export default class Header extends React.Component {
   constructor() {
@@ -14,15 +15,15 @@ export default class Header extends React.Component {
       <div>
          <header>
             <h1>{this.state.title}</h1>
+            <nav>
+               <ul>
+                  <li>{this.state.navBar[0]}</li>
+                  <li>{this.state.navBar[1]}</li>
+                  <li>{this.state.navBar[2]}</li>
+                  <li>{this.state.navBar[3]}</li>
+               </ul>
+            </nav>
          </header>
-         <nav>
-            <ul>
-               <li>{this.state.navBar[0]}</li>
-               <li>{this.state.navBar[1]}</li>
-               <li>{this.state.navBar[2]}</li>
-               <li>{this.state.navBar[3]}</li>
-            </ul>
-         </nav>
       </div>
     )
   }

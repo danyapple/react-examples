@@ -1,0 +1,21 @@
+
+header {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+}
+
+nav {
+  width: 65%;
+}
+h1 {
+  width: 35%;
+  color: red;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
