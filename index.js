@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
+import Header from './src/components/NavBar/Header.js';
 import './style.css';
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      name: 'React'
+      
     };
   }
 
   render() {
     return (
       <div>
-        <Hello name={this.state.name} />
+        <Header name={this.state.name} />
         <p>
           Start editing to see some magic happen :)
         </p>
